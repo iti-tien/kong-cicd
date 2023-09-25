@@ -1,0 +1,11 @@
+on: push
+jobs:
+        run-deck:
+                runs-on: ubuntu-latest
+                steps:
+                        - name: Setup Deck
+                          uses: kong/setup-deck@v1
+                          with:
+                                  deck-version: "1.26.1"
+                        - name: run Deck
+                          run: deck sync -kong-addr http://10.40.6.6:8001
