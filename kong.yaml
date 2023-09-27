@@ -14,14 +14,14 @@ plugins:
     rsa_key_size: 4096
     storage: postgres   # Sử dụng PostgreSQL làm lưu trữ
     storage_config:
-     postgres:
-      host: 10.40.6.228  # Địa chỉ máy chủ PostgreSQL
-      port: 5432       # Cổng PostgreSQL
-      database: kong   # Tên cơ sở dữ liệu
-      user: kong       # Tên người dùng PostgreSQL
-      password: pass # Mật khẩu PostgreSQL
-      ssl: false       # Có sử dụng kết nối SSL khôn
-    gos_accepted: true
+      postgres:
+        host: 10.40.6.228  # Địa chỉ máy chủ PostgreSQL
+        port: 5432       # Cổng PostgreSQL
+        database: kong   # Tên cơ sở dữ liệu
+        user: kong       # Tên người dùng PostgreSQL
+        password: pass   # Mật khẩu PostgreSQL
+        ssl: false       # Có sử dụng kết nối SSL không
+    tos_accepted: true
   enabled: true
   name: acme
   protocols:
@@ -84,3 +84,4 @@ services:
     response_buffering: true
     strip_path: true
   write_timeout: 60000
+
