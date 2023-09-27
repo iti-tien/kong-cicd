@@ -1,4 +1,55 @@
 _format_version: "3.0"
+plugins:
+- config:
+    account_email: trungtien10318@gmail.com
+    allow_any_domain: false
+    api_uri: https://acme-v02.api.letsencrypt.org/directory
+    cert_type: rsa
+    domains: null
+    eab_hmac_key: null
+    eab_kid: null
+    fail_backoff_minutes: 5
+    preferred_chain: null
+    renew_threshold_days: 14
+    rsa_key_size: 4096
+    storage: shm
+    storage_config:
+      consul:
+        host: null
+        https: false
+        kv_path: null
+        port: null
+        timeout: null
+        token: null
+      kong: {}
+      redis:
+        auth: null
+        database: null
+        host: null
+        port: null
+      shm:
+        shm_name: kong
+      vault:
+        auth_method: token
+        auth_path: null
+        auth_role: null
+        host: null
+        https: false
+        jwt_path: null
+        kv_path: null
+        port: null
+        timeout: null
+        tls_server_name: null
+        tls_verify: true
+        token: null
+    tos_accepted: false
+  enabled: true
+  name: acme
+  protocols:
+  - grpc
+  - grpcs
+  - http
+  - https
 services:
 - connect_timeout: 60000
   enabled: true
