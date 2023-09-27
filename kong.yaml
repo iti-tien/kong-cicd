@@ -12,15 +12,8 @@ plugins:
     preferred_chain: null
     renew_threshold_days: 14
     rsa_key_size: 4096
-    storage: postgres   # Sử dụng PostgreSQL làm lưu trữ
-    storage_config:
-      postgres:
-        host: 10.40.6.228  # Địa chỉ máy chủ PostgreSQL
-        port: 5432       # Cổng PostgreSQL
-        database: kong   # Tên cơ sở dữ liệu
-        user: kong       # Tên người dùng PostgreSQL
-        password: pass   # Mật khẩu PostgreSQL
-        ssl: false       # Có sử dụng kết nối SSL không
+    storage: kong   # Sử dụng PostgreSQL làm lưu trữ
+    storage_config: {}
     tos_accepted: true
   enabled: true
   name: acme
