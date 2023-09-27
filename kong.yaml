@@ -8,7 +8,7 @@ plugins:
     domains: ['iti-tien.id.vn']
     eab_hmac_key: null
     eab_kid: null
-    fail_backoff_minutes: 5
+    fail_backoff_minutes: 0
     preferred_chain: null
     renew_threshold_days: 14
     rsa_key_size: 4096
