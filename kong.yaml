@@ -2,7 +2,7 @@ _format_version: "3.0"
 plugins:
 - config:
     account_email: trungtien10318@gmail.com
-    allow_any_domain: false
+    allow_any_domain: true
     api_uri: https://acme-v02.api.letsencrypt.org/directory
     cert_type: rsa
     domains: ['iti-tien.id.vn']
