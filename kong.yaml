@@ -5,7 +5,7 @@ plugins:
     allow_any_domain: false
     api_uri: https://acme-v02.api.letsencrypt.org/directory
     cert_type: rsa
-    domains: http://iti-tien.id.vn
+    domains: ['iti-tien.id.vn']
     eab_hmac_key: null
     eab_kid: null
     fail_backoff_minutes: 5
