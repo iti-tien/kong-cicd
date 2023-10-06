@@ -1,73 +1,20 @@
 _format_version: "3.0"
-plugins:
-- config:
-    account_email: trungtien10318@gmail.com
-    allow_any_domain: true
-    api_uri: https://acme-v02.api.letsencrypt.org/directory
-    cert_type: rsa
-    domains: ['iti-tien.id.vn']
-    eab_hmac_key: null
-    eab_kid: null
-    fail_backoff_minutes: 1
-    preferred_chain: null
-    renew_threshold_days: 14
-    rsa_key_size: 4096
-    storage: kong   # Sử dụng PostgreSQL làm lưu trữ
-    storage_config: {}
-    tos_accepted: true
-  enabled: true
-  name: acme
-  protocols:
-  - grpc
-  - grpcs
-  - http
-  - https
 services:
 - connect_timeout: 60000
   enabled: true
-  host: 35.206.242.239
-  name: wordpress
-  path: /
-  plugins:
-  - config:
-      day: null
-      fault_tolerant: true
-      header_name: null
-      hide_client_headers: false
-      hour: null
-      limit_by: consumer
-      minute: 2
-      month: null
-      path: null
-      policy: local
-      redis_database: 0
-      redis_host: null
-      redis_password: null
-      redis_port: 6379
-      redis_server_name: null
-      redis_ssl: false
-      redis_ssl_verify: false
-      redis_timeout: 2000
-      redis_username: null
-      second: null
-      year: null
-    enabled: true
-    name: rate-limiting
-    protocols:
-    - grpc
-    - grpcs
-    - http
-    - https
+  host: iti-tien.id.vn
+  name: foo
   port: 80
   protocol: http
   read_timeout: 60000
   retries: 5
+#route 1 theo service
   routes:
   - https_redirect_status_code: 426
-    id: 4e79882a-3884-4e54-9183-ba7f9193b78b
+    name: foo
     path_handling: v0
     paths:
-    - /wordpress
+    - /foo
     preserve_host: false
     protocols:
     - http
@@ -78,3 +25,25 @@ services:
     strip_path: true
   write_timeout: 60000
 
+
+
+
+
+- connect_timeout: 60000
+  enabled: true
+  host: iti-tien.id.vn
+  name: foo2
+  port: 80
+  protocol: http
+  read_timeout: 60000
+  retries: 5
+  write_timeout: 60000
+- connect_timeout: 60000
+  enabled: true
+  host: iti-tien.id.vn
+  name: wp
+  port: 80
+  protocol: http
+  read_timeout: 60000
+  retries: 5
+  write_timeout: 60000
