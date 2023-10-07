@@ -107,7 +107,7 @@ services:
 
   routes:
   - https_redirect_status_code: 426
-    id: rt-wp
+    name: rt-wp
     path_handling: v0
     paths:
     - /wordpress
