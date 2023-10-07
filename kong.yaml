@@ -14,41 +14,10 @@ consumers:
   
   
 services:
-- connect_timeout: 60000
-  enabled: true
+- connect_timeout: 60000                  #tgian cho kết nối đến API
+  enabled: true                           #kích hoạt service này
   host: iti-tien.id.vn
   name: foo2
-
-  plugins:
-  - config:
-      day: null
-      fault_tolerant: true
-      header_name: null
-      hide_client_headers: false
-      hour: null
-      limit_by: consumer
-      minute: 10
-      month: null
-      path: null
-      policy: local
-      redis_database: 0
-      redis_host: null
-      redis_password: null
-      redis_port: 6379
-      redis_server_name: null
-      redis_ssl: false
-      redis_ssl_verify: false
-      redis_timeout: 2000
-      redis_username: null
-      second: null
-      year: null
-    enabled: true
-    name: rate-limiting
-    protocols:
-    - grpc
-    - grpcs
-    - http
-    - https
   port: 80
   protocol: http
   read_timeout: 60000
