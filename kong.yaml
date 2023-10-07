@@ -8,6 +8,20 @@ services:
   protocol: http
   read_timeout: 60000
   retries: 5
+  routes:
+  - https_redirect_status_code: 426
+    id: 8fdd67cd-7d28-4811-add2-427fd20cd11c
+    path_handling: v0
+    paths:
+    - /foo
+    preserve_host: false
+    protocols:
+    - http
+    - https
+    regex_priority: 0
+    request_buffering: true
+    response_buffering: true
+    strip_path: true
   write_timeout: 60000
 - connect_timeout: 60000
   enabled: true
@@ -17,4 +31,18 @@ services:
   protocol: http
   read_timeout: 60000
   retries: 5
+  routes:
+  - https_redirect_status_code: 426
+    id: 8fdd67cd-7d28-4811-add2-427fd20cd11a
+    path_handling: v0
+    paths:
+    - /foo2
+    preserve_host: false
+    protocols:
+    - http
+    - https
+    regex_priority: 0
+    request_buffering: true
+    response_buffering: true
+    strip_path: true
   write_timeout: 60000
