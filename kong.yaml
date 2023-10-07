@@ -57,7 +57,7 @@ services:
 
   routes:
   - https_redirect_status_code: 426
-    id: rt-foo
+    name: rt-foo
     path_handling: v0
     paths:
     - /foo
@@ -136,7 +136,7 @@ services:
 
   routes:
   - https_redirect_status_code: 426
-    id: rp-foo2 
+    name: rp-foo2 
     path_handling: v0
     paths:
     - /foo2
