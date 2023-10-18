@@ -43,7 +43,21 @@ services:
 
 
 
-
+ -routes:
+  - https_redirect_status_code: 426
+    name: route-wp
+    path_handling: v0
+    paths:
+    - /iti-tien.id.vn
+    preserve_host: false
+    protocols:
+    - http
+    - https
+    regex_priority: 0
+    request_buffering: true
+    response_buffering: true
+    strip_path: true
+  write_timeout: 60000
 
 
 
