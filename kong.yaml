@@ -1,26 +1,2 @@
 _format_version: "3.0"
 
-
-
-consumers:
-- keyauth_credentials:
-  - key: my-api-key
-  username: myconsumer
-- keyauth_credentials:
-  - key: lab-key
-  username: lab-key
-
-
-  
-  
-services:
-- connect_timeout: 60000                  #tgian cho kết nối đến API
-  enabled: true                           #kích hoạt service này
-  host: iti-tien.id.vn
-  name: wordpress
-  port: 80
-  protocol: http
-  read_timeout: 60000
-  retries: 5
-
-
