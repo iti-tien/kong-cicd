@@ -1,1 +1,26 @@
 _format_version: "3.0"
+# this section is not necessary if there's already a route that matches
+# /.well-known/acme-challenge path with http protocol
+services:
+  - name: acme-dummy
+    url: http://127.0.0.1:65535
+    routes:
+      - name: acme-dummy
+        protocols:
+          - http
+        paths:
+          - /.well-known/acme-challenge
+plugins:
+  - name: acme
+    config:
+      account_email: example@myexample.com
+      domains:
+        - "*.id.vn"
+        - "iti-tien.id.vn"
+      tos_accepted: true
+      storage: redis
+      storage_config:
+        redis:
+          host: redis.service
+          port: 6379
+
