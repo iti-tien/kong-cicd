@@ -22,5 +22,5 @@ plugins:
       storage_config:
         redis:
           host: redis.service
-          port: 6379
+          port: 80
 
