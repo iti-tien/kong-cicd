@@ -3,7 +3,7 @@ _format_version: "3.0"
 # /.well-known/acme-challenge path with http protocol
 services:
   - name: acme-dummy
-    url: http://127.0.0.1:65535
+    url: http://35.201.249.185:80
     routes:
       - name: acme-dummy
         protocols:
