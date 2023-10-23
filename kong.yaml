@@ -1,7 +1,7 @@
 _format_version: "3.0"
 plugins:
 - config:
-    account_email: youremail@domain
+    account_email: trungtien10318@gmail.com
     allow_any_domain: false
     api_uri: https://acme-v02.api.letsencrypt.org/directory
     cert_type: rsa
