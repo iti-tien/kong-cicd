@@ -1,26 +1,170 @@
 _format_version: "3.0"
-# this section is not necessary if there's already a route that matches
-# /.well-known/acme-challenge path with http protocol
-services:
-  - name: acme-dummy
-    url: http://35.201.249.185:80
-    routes:
-      - name: acme-dummy
-        protocols:
-          - http
-        paths:
-          - /.well-known/acme-challenge
 plugins:
-  - name: acme
-    config:
-      account_email: example@myexample.com
-      domains:
-        - "*.id.vn"
-        - "iti-tien.id.vn"
-      tos_accepted: true
-      storage: redis
-      storage_config:
-        redis:
-          host: redis.service
-          port: 80
-
+- config:
+    account_email: example@myexample.com
+    allow_any_domain: true
+    api_uri: https://acme-v02.api.letsencrypt.org/directory
+    cert_type: rsa
+    domains:
+    - '*.id.vn'
+    - iti-tien.id.vn
+    eab_hmac_key: null
+    eab_kid: null
+    fail_backoff_minutes: 1
+    preferred_chain: null
+    renew_threshold_days: 14
+    rsa_key_size: 4096
+    storage: kong
+    storage_config:
+      consul:
+        host: null
+        https: false
+        kv_path: null
+        port: null
+        timeout: null
+        token: null
+      kong: {}
+      redis:
+        auth: null
+        database: null
+        host: redis.service
+        port: 80
+      shm:
+        shm_name: kong
+      vault:
+        auth_method: token
+        auth_path: null
+        auth_role: null
+        host: null
+        https: false
+        jwt_path: null
+        kv_path: null
+        port: null
+        timeout: null
+        tls_server_name: null
+        tls_verify: true
+        token: null
+    tos_accepted: true
+  enabled: true
+  name: acme
+  protocols:
+  - grpc
+  - grpcs
+  - http
+  - https
+services:
+- connect_timeout: 60000
+  enabled: true
+  host: example_upstream
+  name: acme-dummy
+  port: 443
+  protocol: http
+  read_timeout: 60000
+  retries: 5
+  routes:
+  - https_redirect_status_code: 426
+    name: acme-dummy
+    path_handling: v0
+    paths:
+    - /.well-known/acme-challenge
+    preserve_host: false
+    protocols:
+    - http
+    regex_priority: 0
+    request_buffering: true
+    response_buffering: true
+    strip_path: true
+  write_timeout: 60000
+- connect_timeout: 60000
+  enabled: true
+  host: 34.81.204.126
+  name: acme-example
+  port: 65535
+  protocol: http
+  read_timeout: 60000
+  retries: 5
+  routes:
+  - https_redirect_status_code: 426
+    name: acme-example
+    path_handling: v0
+    paths:
+    - /.well-known/acme-challenge
+    preserve_host: false
+    protocols:
+    - http
+    - https
+    regex_priority: 0
+    request_buffering: true
+    response_buffering: true
+    strip_path: true
+  write_timeout: 60000
+upstreams:
+- algorithm: round-robin
+  hash_fallback: none
+  hash_on: none
+  hash_on_cookie_path: /
+  healthchecks:
+    active:
+      concurrency: 10
+      healthy:
+        http_statuses:
+        - 200
+        - 302
+        interval: 0
+        successes: 0
+      http_path: /
+      https_verify_certificate: true
+      timeout: 1
+      type: http
+      unhealthy:
+        http_failures: 0
+        http_statuses:
+        - 429
+        - 404
+        - 500
+        - 501
+        - 502
+        - 503
+        - 504
+        - 505
+        interval: 0
+        tcp_failures: 0
+        timeouts: 0
+    passive:
+      healthy:
+        http_statuses:
+        - 200
+        - 201
+        - 202
+        - 203
+        - 204
+        - 205
+        - 206
+        - 207
+        - 208
+        - 226
+        - 300
+        - 301
+        - 302
+        - 303
+        - 304
+        - 305
+        - 306
+        - 307
+        - 308
+        successes: 0
+      type: http
+      unhealthy:
+        http_failures: 0
+        http_statuses:
+        - 429
+        - 500
+        - 503
+        tcp_failures: 0
+        timeouts: 0
+    threshold: 0
+  name: example_upstream
+  slots: 10000
+  targets:
+  - target: iti-tien.id.vn:80
+    weight: 100
