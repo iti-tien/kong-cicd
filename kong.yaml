@@ -1,1 +1,421 @@
 _format_version: "3.0"
+certificates:
+- cert: |
+    -----BEGIN CERTIFICATE-----
+    MIIF6TCCBNGgAwIBAgISBBChDA3R10dIyFwot3qf3fvAMA0GCSqGSIb3DQEBCwUA
+    MDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQD
+    EwJSMzAeFw0yMzEwMjYwNDA5MTRaFw0yNDAxMjQwNDA5MTNaMBkxFzAVBgNVBAMT
+    Dml0aS10aWVuLmlkLnZuMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA
+    r5NcjjFrLn3Yb1bf4D1/7XIxfduFMc96UL5cV/8xmpYFIYsxOtcqgsQddR+wdcS8
+    5kReNZ7LNiHSxkjmNAYTEBFKhiEM1IDkypytEteAfaBOS3Zs3iL0aDCPTq2eiXmH
+    B+3/Memcm9V7vMAv6sIQ1+l2TQ5xAIcv9GM/g9/LJ8vQdTrQv3jFSlRYTPgFFDbr
+    BYD/51LOzwBjEO90wkAOoPQ0BG5zAckIG/zNECRcowRF1fZegmMnIzra+TKALk+Y
+    mlLZcCM6rpILVwmVI7ZGh4pjPVjeJlM3h46hbK27yoFF9npDj9Rz9uwcasZj72+y
+    JgZ18zxJMwexGtTFJ5AZ7jsTgpHF+2nuSqitHwAVlXUo2WzsbczYcRzP7SMCpE6T
+    YTJPmSaqZo55q+Z1q7IGThSaG0eVbqvZWWgkup6GoDPQ4CFPWBaVa/UJSKJ3q72x
+    hcSZgxyTKvCS73o/cSD9tu95wsBDriKthWTJ0hWwFuLmd1Nph7iGOrKFFrPLk58x
+    9Ds9Q0rNijOzUcmx8hYTVjjpavTBCCmKnJVOzyWoV3AyjIhr1SMLmB6lOYdzwRX1
+    pGm6spL4NlYvSHxM2OHiuencum7EOyIg//J7gb57qqIIF68O0DNpwaGpGkhhsDiI
+    KJTEOvgOemhogi1bHL9JyTVU2k0tbczcjwCgd5dzFx0CAwEAAaOCAhAwggIMMA4G
+    A1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDAYD
+    VR0TAQH/BAIwADAdBgNVHQ4EFgQUh3mU2QtdBlMHv9FJkQln8dac9YMwHwYDVR0j
+    BBgwFoAUFC6zF7dYVsuuUAlA5h+vnYsUwsYwVQYIKwYBBQUHAQEESTBHMCEGCCsG
+    AQUFBzABhhVodHRwOi8vcjMuby5sZW5jci5vcmcwIgYIKwYBBQUHMAKGFmh0dHA6
+    Ly9yMy5pLmxlbmNyLm9yZy8wGQYDVR0RBBIwEIIOaXRpLXRpZW4uaWQudm4wEwYD
+    VR0gBAwwCjAIBgZngQwBAgEwggEEBgorBgEEAdZ5AgQCBIH1BIHyAPAAdwB2/4g/
+    Crb7lVHCYcz1h7o0tKTNuyncaEIKn+ZnTFo6dAAAAYtqYwExAAAEAwBIMEYCIQDN
+    M/woUX+qsNvJf2ABCefbC/sm1jvJvoOMSFsLWCFv4gIhAKTz0AKUyKtfQr1M5+7k
+    B9w8Th9QkHDchC5ZRljjpITrAHUAO1N3dT4tuYBOizBbBv5AO2fYT8P0x70ADS1y
+    b+H61BcAAAGLamMBbQAABAMARjBEAiBqehKv/XK6nVDOr7WVWNd/loS8w3xOIGxx
+    asHshkXwPgIgV/Vf0oqJC6V9ODvoQZaQvZ3PJknrjXu8CqUeEg+RA8wwDQYJKoZI
+    hvcNAQELBQADggEBACI5zOLT8nBYLTWt5wBEFHcBBIrkaqgeCrf/3i6dYv/6bzjm
+    jvA9bG1NHmb6SMVHckKCmguzmcjpjUhvCSPcpKUQoi/+D14mafigM4LCKw4QNiyf
+    eKQIvgNY71WdVH79M3CIqHFAEqXt2hjw6EuhwBV6/y6FAX7Qg/9RhERF4+JH87gq
+    YwdDu6OVrjty3KRnf1x3dWrA0dEE6lDpCox1HHrFPJ0oqlxPdrQysCF71cK0rw81
+    ZhJ4nYoe4AE4wYWxF9TroqpWvAoWaivrdHpEMD4+M4HxDOBTrtkvuM0y3KUSxA3y
+    yjIaJKLw5BPf72OtODlRRzV2K/yrdBXsw00HZC0=
+    -----END CERTIFICATE-----
+
+    -----BEGIN CERTIFICATE-----
+    MIIFFjCCAv6gAwIBAgIRAJErCErPDBinU/bWLiWnX1owDQYJKoZIhvcNAQELBQAw
+    TzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2Vh
+    cmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwHhcNMjAwOTA0MDAwMDAw
+    WhcNMjUwOTE1MTYwMDAwWjAyMQswCQYDVQQGEwJVUzEWMBQGA1UEChMNTGV0J3Mg
+    RW5jcnlwdDELMAkGA1UEAxMCUjMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK
+    AoIBAQC7AhUozPaglNMPEuyNVZLD+ILxmaZ6QoinXSaqtSu5xUyxr45r+XXIo9cP
+    R5QUVTVXjJ6oojkZ9YI8QqlObvU7wy7bjcCwXPNZOOftz2nwWgsbvsCUJCWH+jdx
+    sxPnHKzhm+/b5DtFUkWWqcFTzjTIUu61ru2P3mBw4qVUq7ZtDpelQDRrK9O8Zutm
+    NHz6a4uPVymZ+DAXXbpyb/uBxa3Shlg9F8fnCbvxK/eG3MHacV3URuPMrSXBiLxg
+    Z3Vms/EY96Jc5lP/Ooi2R6X/ExjqmAl3P51T+c8B5fWmcBcUr2Ok/5mzk53cU6cG
+    /kiFHaFpriV1uxPMUgP17VGhi9sVAgMBAAGjggEIMIIBBDAOBgNVHQ8BAf8EBAMC
+    AYYwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMBMBIGA1UdEwEB/wQIMAYB
+    Af8CAQAwHQYDVR0OBBYEFBQusxe3WFbLrlAJQOYfr52LFMLGMB8GA1UdIwQYMBaA
+    FHm0WeZ7tuXkAXOACIjIGlj26ZtuMDIGCCsGAQUFBwEBBCYwJDAiBggrBgEFBQcw
+    AoYWaHR0cDovL3gxLmkubGVuY3Iub3JnLzAnBgNVHR8EIDAeMBygGqAYhhZodHRw
+    Oi8veDEuYy5sZW5jci5vcmcvMCIGA1UdIAQbMBkwCAYGZ4EMAQIBMA0GCysGAQQB
+    gt8TAQEBMA0GCSqGSIb3DQEBCwUAA4ICAQCFyk5HPqP3hUSFvNVneLKYY611TR6W
+    PTNlclQtgaDqw+34IL9fzLdwALduO/ZelN7kIJ+m74uyA+eitRY8kc607TkC53wl
+    ikfmZW4/RvTZ8M6UK+5UzhK8jCdLuMGYL6KvzXGRSgi3yLgjewQtCPkIVz6D2QQz
+    CkcheAmCJ8MqyJu5zlzyZMjAvnnAT45tRAxekrsu94sQ4egdRCnbWSDtY7kh+BIm
+    lJNXoB1lBMEKIq4QDUOXoRgffuDghje1WrG9ML+Hbisq/yFOGwXD9RiX8F6sw6W4
+    avAuvDszue5L3sz85K+EC4Y/wFVDNvZo4TYXao6Z0f+lQKc0t8DQYzk1OXVu8rp2
+    yJMC6alLbBfODALZvYH7n7do1AZls4I9d1P4jnkDrQoxB3UqQ9hVl3LEKQ73xF1O
+    yK5GhDDX8oVfGKF5u+decIsH4YaTw7mP3GFxJSqv3+0lUFJoi5Lc5da149p90Ids
+    hCExroL1+7mryIkXPeFM5TgO9r0rvZaBFOvV2z0gp35Z0+L4WPlbuEjN/lxPFin+
+    HlUjr8gRsI3qfJOQFy/9rKIJR0Y/8Omwt/8oTWgy1mdeHmmjk7j1nYsvC9JSQ6Zv
+    MldlTTKB3zhThV1+XWYp6rjd5JW1zbVWEkLNxE7GJThEUG3szgBVGP7pSWTUTsqX
+    nLRbwHOoq7hHwg==
+    -----END CERTIFICATE-----
+
+    -----BEGIN CERTIFICATE-----
+    MIIFYDCCBEigAwIBAgIQQAF3ITfU6UK47naqPGQKtzANBgkqhkiG9w0BAQsFADA/
+    MSQwIgYDVQQKExtEaWdpdGFsIFNpZ25hdHVyZSBUcnVzdCBDby4xFzAVBgNVBAMT
+    DkRTVCBSb290IENBIFgzMB4XDTIxMDEyMDE5MTQwM1oXDTI0MDkzMDE4MTQwM1ow
+    TzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2Vh
+    cmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwggIiMA0GCSqGSIb3DQEB
+    AQUAA4ICDwAwggIKAoICAQCt6CRz9BQ385ueK1coHIe+3LffOJCMbjzmV6B493XC
+    ov71am72AE8o295ohmxEk7axY/0UEmu/H9LqMZshftEzPLpI9d1537O4/xLxIZpL
+    wYqGcWlKZmZsj348cL+tKSIG8+TA5oCu4kuPt5l+lAOf00eXfJlII1PoOK5PCm+D
+    LtFJV4yAdLbaL9A4jXsDcCEbdfIwPPqPrt3aY6vrFk/CjhFLfs8L6P+1dy70sntK
+    4EwSJQxwjQMpoOFTJOwT2e4ZvxCzSow/iaNhUd6shweU9GNx7C7ib1uYgeGJXDR5
+    bHbvO5BieebbpJovJsXQEOEO3tkQjhb7t/eo98flAgeYjzYIlefiN5YNNnWe+w5y
+    sR2bvAP5SQXYgd0FtCrWQemsAXaVCg/Y39W9Eh81LygXbNKYwagJZHduRze6zqxZ
+    Xmidf3LWicUGQSk+WT7dJvUkyRGnWqNMQB9GoZm1pzpRboY7nn1ypxIFeFntPlF4
+    FQsDj43QLwWyPntKHEtzBRL8xurgUBN8Q5N0s8p0544fAQjQMNRbcTa0B7rBMDBc
+    SLeCO5imfWCKoqMpgsy6vYMEG6KDA0Gh1gXxG8K28Kh8hjtGqEgqiNx2mna/H2ql
+    PRmP6zjzZN7IKw0KKP/32+IVQtQi0Cdd4Xn+GOdwiK1O5tmLOsbdJ1Fu/7xk9TND
+    TwIDAQABo4IBRjCCAUIwDwYDVR0TAQH/BAUwAwEB/zAOBgNVHQ8BAf8EBAMCAQYw
+    SwYIKwYBBQUHAQEEPzA9MDsGCCsGAQUFBzAChi9odHRwOi8vYXBwcy5pZGVudHJ1
+    c3QuY29tL3Jvb3RzL2RzdHJvb3RjYXgzLnA3YzAfBgNVHSMEGDAWgBTEp7Gkeyxx
+    +tvhS5B1/8QVYIWJEDBUBgNVHSAETTBLMAgGBmeBDAECATA/BgsrBgEEAYLfEwEB
+    ATAwMC4GCCsGAQUFBwIBFiJodHRwOi8vY3BzLnJvb3QteDEubGV0c2VuY3J5cHQu
+    b3JnMDwGA1UdHwQ1MDMwMaAvoC2GK2h0dHA6Ly9jcmwuaWRlbnRydXN0LmNvbS9E
+    U1RST09UQ0FYM0NSTC5jcmwwHQYDVR0OBBYEFHm0WeZ7tuXkAXOACIjIGlj26Ztu
+    MA0GCSqGSIb3DQEBCwUAA4IBAQAKcwBslm7/DlLQrt2M51oGrS+o44+/yQoDFVDC
+    5WxCu2+b9LRPwkSICHXM6webFGJueN7sJ7o5XPWioW5WlHAQU7G75K/QosMrAdSW
+    9MUgNTP52GE24HGNtLi1qoJFlcDyqSMo59ahy2cI2qBDLKobkx/J3vWraV0T9VuG
+    WCLKTVXkcGdtwlfFRjlBz4pYg1htmf5X6DYO8A4jqv2Il9DjXA6USbW1FzXSLr9O
+    he8Y4IWS6wY7bCkjCWDcRQJMEhg76fsO3txE+FiYruq9RUWhiF1myv4Q6W+CyBFC
+    Dfvp7OOGAN6dEOM4+qR9sdjoSYKEBpsr6GtPAQw4dy753ec5
+    -----END CERTIFICATE-----
+  id: d9e08242-2173-432c-af17-c78226264e3f
+  key: |
+    -----BEGIN PRIVATE KEY-----
+    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
+    OMGY7j6QCpPWofO8BH3zCIa7hdZC
+    -----END PRIVATE KEY-----
+  snis:
+  - name: iti-tien.id.vn
+    tags:
+    - managed-by-acme
+  tags:
+  - managed-by-acme
+plugins:
+- config:
+    account_email: trungtien10318@gmail.com
+    allow_any_domain: false
+    api_uri: https://acme-v02.api.letsencrypt.org/directory
+    cert_type: rsa
+    domains:
+    - iti-tien.id.vn
+    eab_hmac_key: null
+    eab_kid: null
+    fail_backoff_minutes: 1
+    preferred_chain: null
+    renew_threshold_days: 14
+    rsa_key_size: 4096
+    storage: kong
+    storage_config:
+      consul:
+        host: null
+        https: false
+        kv_path: null
+        port: null
+        timeout: null
+        token: null
+      kong: {}
+      redis:
+        auth: null
+        database: null
+        host: null
+        port: null
+      shm:
+        shm_name: kong
+      vault:
+        auth_method: token
+        auth_path: null
+        auth_role: null
+        host: null
+        https: false
+        jwt_path: null
+        kv_path: null
+        port: null
+        timeout: null
+        tls_server_name: null
+        tls_verify: true
+        token: null
+    tos_accepted: true
+  enabled: true
+  name: acme
+  protocols:
+  - grpc
+  - grpcs
+  - http
+  - https
+services:
+- connect_timeout: 60000
+  enabled: true
+  host: 127.0.0.1
+  name: acme-service
+  port: 8100
+  protocol: http
+  read_timeout: 60000
+  retries: 5
+  routes:
+  - https_redirect_status_code: 426
+    name: acme-route
+    path_handling: v0
+    paths:
+    - /.well-known/acme-challenge
+    preserve_host: false
+    protocols:
+    - http
+    - https
+    regex_priority: 0
+    request_buffering: true
+    response_buffering: true
+    strip_path: true
+  write_timeout: 60000
+- connect_timeout: 60000
+  enabled: true
+  host: wp-upstream
+  name: wp-service
+  port: 80
+  protocol: http
+  read_timeout: 60000
+  retries: 5
+  routes:
+  - https_redirect_status_code: 426
+    name: wp-route
+    path_handling: v0
+    paths:
+    - /wp
+    preserve_host: false
+    protocols:
+    - http
+    - https
+    regex_priority: 0
+    request_buffering: true
+    response_buffering: true
+    strip_path: true
+  write_timeout: 60000
+- connect_timeout: 60000
+  enabled: true
+  host: 35.234.24.41
+  name: wp-service1
+  port: 80
+  protocol: http
+  read_timeout: 60000
+  retries: 5
+  routes:
+  - https_redirect_status_code: 426
+    name: wp-route1
+    path_handling: v0
+    paths:
+    - /
+    preserve_host: false
+    protocols:
+    - http
+    - https
+    regex_priority: 0
+    request_buffering: true
+    response_buffering: true
+    strip_path: true
+  write_timeout: 60000
+- connect_timeout: 60000
+  enabled: true
+  host: iti-tien.id.vn
+  name: wp-service2
+  port: 80
+  protocol: http
+  read_timeout: 60000
+  retries: 5
+  routes:
+  - https_redirect_status_code: 426
+    name: wp-route2
+    path_handling: v0
+    paths:
+    - /wp2
+    preserve_host: false
+    protocols:
+    - http
+    - https
+    regex_priority: 0
+    request_buffering: true
+    response_buffering: true
+    strip_path: true
+  write_timeout: 60000
+- connect_timeout: 60000
+  enabled: true
+  host: 35.234.24.41
+  name: wp-services1
+  port: 443
+  protocol: https
+  read_timeout: 60000
+  retries: 5
+  routes:
+  - https_redirect_status_code: 426
+    name: wp-routes1
+    path_handling: v0
+    paths:
+    - /wps1
+    preserve_host: false
+    protocols:
+    - http
+    - https
+    regex_priority: 0
+    request_buffering: true
+    response_buffering: true
+    strip_path: true
+  write_timeout: 60000
+- connect_timeout: 60000
+  enabled: true
+  host: iti-tien.id.vn
+  name: wp-services2
+  port: 443
+  protocol: https
+  read_timeout: 60000
+  retries: 5
+  routes:
+  - https_redirect_status_code: 426
+    name: wp-routes2
+    path_handling: v0
+    paths:
+    - /wps2
+    preserve_host: false
+    protocols:
+    - http
+    - https
+    regex_priority: 0
+    request_buffering: true
+    response_buffering: true
+    strip_path: true
+  write_timeout: 60000
+upstreams:
+- algorithm: round-robin
+  hash_fallback: none
+  hash_on: none
+  hash_on_cookie_path: /
+  healthchecks:
+    active:
+      concurrency: 10
+      healthy:
+        http_statuses:
+        - 200
+        - 302
+        interval: 0
+        successes: 0
+      http_path: /
+      https_verify_certificate: true
+      timeout: 1
+      type: http
+      unhealthy:
+        http_failures: 0
+        http_statuses:
+        - 429
+        - 404
+        - 500
+        - 501
+        - 502
+        - 503
+        - 504
+        - 505
+        interval: 0
+        tcp_failures: 0
+        timeouts: 0
+    passive:
+      healthy:
+        http_statuses:
+        - 200
+        - 201
+        - 202
+        - 203
+        - 204
+        - 205
+        - 206
+        - 207
+        - 208
+        - 226
+        - 300
+        - 301
+        - 302
+        - 303
+        - 304
+        - 305
+        - 306
+        - 307
+        - 308
+        successes: 0
+      type: http
+      unhealthy:
+        http_failures: 0
+        http_statuses:
+        - 429
+        - 500
+        - 503
+        tcp_failures: 0
+        timeouts: 0
+    threshold: 0
+  name: wp-upstream
+  slots: 10000
+  targets:
+  - target: iti-tien.id.vn:80
+    weight: 100
