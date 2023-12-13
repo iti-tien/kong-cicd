@@ -352,5 +352,5 @@ upstreams:
   name: wp
   slots: 10000
   targets:
-  - target: 104.199.190.115:80
+  - target: 34.81.140.135:80
     weight: 100
